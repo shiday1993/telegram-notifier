@@ -1,0 +1,14 @@
+{
+  "name": "telegram-notifier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight Telegram notification gateway powered by Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
